@@ -12,7 +12,8 @@ npm run test
 ./node_modules/.bin/bisect-ppx-report.exe --html _coverage/ *.out
 ```
 
-You should now have a `_coverage` directory with a coverage report in it. Use
-your browser to open `_coverage/index.html`!
+These commands generate
+[this coverage report](https://aantron.github.io/bisect-example-bsb/) in the
+`_coverage` directory. Use your browser to open `_coverage/index.html`!
 
 See [aantron/bisect_ppx](https://github.com/aantron/bisect_ppx).
