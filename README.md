@@ -1,7 +1,5 @@
 # [Bisect_ppx][bisect] + BuckleScript example repo
 
-To try out:
-
 ```
 git clone https://github.com/aantron/bisect-example-bsb.git
 cd bisect-example-bsb
@@ -13,8 +11,8 @@ npm run test
 ```
 
 These commands generate
-[this coverage report](https://aantron.github.io/bisect-example-bsb/) in the
-`_coverage` directory. Use your browser to open `_coverage/index.html`!
+[this coverage report](https://aantron.github.io/bisect-example-bsb/) locally
+in the `_coverage/` directory. Use your browser to open `_coverage/index.html`!
 
 See [aantron/bisect_ppx][bisect].
 
