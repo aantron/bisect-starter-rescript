@@ -1,4 +1,4 @@
-# Bisect_ppx+BuckleScript example repo
+# [Bisect_ppx][bisect] + BuckleScript example repo
 
 To try out:
 
@@ -16,4 +16,6 @@ These commands generate
 [this coverage report](https://aantron.github.io/bisect-example-bsb/) in the
 `_coverage` directory. Use your browser to open `_coverage/index.html`!
 
-See [aantron/bisect_ppx](https://github.com/aantron/bisect_ppx).
+See [aantron/bisect_ppx][bisect].
+
+[bisect]: https://github.com/aantron/bisect_ppx
