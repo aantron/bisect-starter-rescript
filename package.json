@@ -2,11 +2,11 @@
   "name": "bisect-example-bsb",
   "dependencies": {
     "bisect_ppx": "git+https://github.com/aantron/bisect_ppx.git#binaries",
-    "bs-platform": "^6.0.0"
+    "bs-platform": ">= 5.0.0"
   },
   "scripts": {
     "build": "bsb -make-world",
-    "test": "rm -f *.out && node ./lib/js/hello.js",
+    "test": "rm -f *.coverage && node ./lib/js/hello.js",
     "clean": "bsb -clean-world"
   }
 }

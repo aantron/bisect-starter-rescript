@@ -3,11 +3,10 @@
 ```
 git clone https://github.com/aantron/bisect-starter-bsb.git
 cd bisect-starter-bsb
-npm install -g esy
 npm install
 BISECT_ENABLE=yes npm run build
 npm run test
-./node_modules/.bin/bisect-ppx-report.exe --html _coverage/ *.out
+npx bisect-ppx-report html
 ```
 
 These commands generate
