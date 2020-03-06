@@ -19,3 +19,8 @@ script:
   - npx bisect-ppx-report html
   - cat _coverage/index.html
   - npx bisect-ppx-report summary
+
+notifications:
+  email:
+    on_success: always
+    on_failure: always
