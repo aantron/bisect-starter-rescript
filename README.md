@@ -4,6 +4,7 @@
 git clone https://github.com/aantron/bisect-starter-bsb.git
 cd bisect-starter-bsb
 npm install
+rm -f *.coverage
 BISECT_ENABLE=yes npm run build
 npm run test
 npx bisect-ppx-report html
