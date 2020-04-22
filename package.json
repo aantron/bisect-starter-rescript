@@ -1,12 +1,23 @@
 {
-  "name": "bisect-example-bsb",
+  "name": "bisect-starter-bsb-jest",
   "dependencies": {
-    "bisect_ppx": "^2.0.0",
+    "bisect_ppx": "^2.4.0",
     "bs-platform": ">= 5.0.0"
   },
   "scripts": {
     "build": "bsb -make-world",
-    "test": "rm -f *.coverage && node ./lib/js/hello.js",
+    "pretest": "npm run clean && npm run build",
+    "test": "jest",
+    "precoverage": "npm run clean && BISECT_ENABLE=yes npm run build",
+    "coverage": "jest",
     "clean": "bsb -clean-world"
+  },
+  "devDependencies": {
+    "@glennsl/bs-jest": "^0.5.1"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "bisect_ppx/src/runtime/bucklescript/jest.js"
+    ]
   }
 }
