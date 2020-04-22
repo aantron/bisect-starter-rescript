@@ -1,5 +1,11 @@
 {
   "name": "bisect-starter-bsb-jest",
+  "package-specs": [
+    {
+      "module": "commonjs",
+      "in-source": true
+    }
+  ],
   "bs-dependencies": [
     "bisect_ppx"
   ],
