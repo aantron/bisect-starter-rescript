@@ -5,7 +5,7 @@ os:
   - osx
 
 env:
-  - BUCKLESCRIPT=7
+  - BUCKLESCRIPT=8
   - BUCKLESCRIPT=5
 
 install:

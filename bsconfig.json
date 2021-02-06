@@ -1,5 +1,5 @@
 {
-  "name": "bisect-example-bsb",
+  "name": "bisect-example-rescript",
   "bs-dependencies": [
     "bisect_ppx"
   ],
