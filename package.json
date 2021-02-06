@@ -2,7 +2,7 @@
   "name": "bisect-example-rescript",
   "dependencies": {
     "bisect_ppx": "^2.0.0",
-    "bs-platform": ">= 5.0.0"
+    "bs-platform": ">= 8.2.0"
   },
   "scripts": {
     "build": "bsb -make-world",

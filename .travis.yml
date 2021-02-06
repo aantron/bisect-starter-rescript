@@ -6,7 +6,6 @@ os:
 
 env:
   - BUCKLESCRIPT=8
-  - BUCKLESCRIPT=5
 
 install:
   - npm install bs-platform@$BUCKLESCRIPT
