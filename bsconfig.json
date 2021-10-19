@@ -1,13 +1,32 @@
 {
   "name": "bisect-example-rescript",
+  "reason": {
+    "react-jsx": 3
+  },
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    }
+  ],
+  "bsc-flags": [
+    "-bs-no-version-header",
+    "-bs-super-errors"
+  ],
+  "package-specs": [
+    {
+      "module": "es6",
+      "in-source": true
+    }
+  ],
+  "suffix": ".bs.js",
+  "namespace": true,
   "bs-dependencies": [
     "bisect_ppx"
   ],
+  "bs-dev-dependencies": [],
   "ppx-flags": [
     "bisect_ppx/ppx"
   ],
-  "refmt": 3,
-  "sources": [
-    "."
-  ]
+  "refmt": 3
 }

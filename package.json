@@ -1,12 +1,12 @@
 {
   "name": "bisect-example-rescript",
   "dependencies": {
-    "bisect_ppx": "^2.0.0",
-    "bs-platform": ">= 8.2.0"
+    "bisect_ppx": "^2.6.3",
+    "rescript": "9.1.4"
   },
   "scripts": {
-    "build": "bsb -make-world",
-    "test": "rm -f *.coverage && node ./lib/js/hello.js",
-    "clean": "bsb -clean-world"
+    "build": "rescript build -with-deps",
+    "test": "rm -f *.coverage && node ./src/hello.bs.js",
+    "clean": "rescript clean"
   }
 }
