@@ -2,11 +2,11 @@
   "name": "bisect-example-rescript",
   "dependencies": {
     "bisect_ppx": "^2.0.0",
-    "bs-platform": ">= 8.2.0"
+    "rescript": "*"
   },
   "scripts": {
-    "build": "bsb -make-world",
+    "build": "rescript",
     "test": "rm -f *.coverage && node ./lib/js/hello.js",
-    "clean": "bsb -clean-world"
+    "clean": "rescript clean"
   }
 }
